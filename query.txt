@@ -1,0 +1,78 @@
+Admin    Swagger :	https://partzrideradmin.opusinfiniti.com/restapi/swagger/index.html
+Customer Swagger :	https://partzrideradmin.opusinfiniti.com/customerapi/swagger/index.html
+admin    app	  :   https://partzrideradmin.opusinfiniti.com/login
+customer app	  :   https://partzrider.opusinfiniti.com/
+
+
+https://partzrideradmin.opusinfiniti.com/customerapi/v1/register:
+
+{
+  "customer_type": "customer",
+  "first_name": "pravin",
+  "last_name": "test",
+  "email_id": "pravinpersonal3@gmail.com",
+  "mobile_no": "9789741475",
+  "password": "Pravin@123",
+  "referral_code": "",
+  "reg_media": "W"
+}
+
+response:
+{
+  "is_successful": false,
+  "message": "errror occurred while saving"
+}
+
+{
+  "is_successful": true,
+  "message": "registration done successfully",
+  "user_id": 0,
+  "customer_id": 0,
+  "username": "pravinpersonal3@gmail.com",
+  "usertype": "customer",
+  "email_id": "pravinpersonal3@gmail.com",
+  "mobile_no": "9789741475",
+  "document_required": "N"
+}
+
+
+
+implemented this : https://react-bootstrap.github.io/components/offcanvas/ 
+but not visiable
+
+
+main page 
+header
+   . header responsive logo missing
+   . cart area not show
+menu
+   . sticky menu not show
+banner
+   . select box fade property 
+   . carousel no moving
+best seller
+   . next and prev icon no moving
+hot deals
+   . next and prev icon no moving
+
+
+checkout page 
+billing details 
+    . select box fade property 
+
+cart page
+your cart items
+    . qty box increase & decrease button
+estimate shipping and tax
+    . select box fade property
+
+pages
+  layout
+
+18/05/2022
+
+1. navbar sticky 
+2. register validation 
+3. sweet alert method 
+
+query = header icon-user show & hide checkout

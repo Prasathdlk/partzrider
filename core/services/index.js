@@ -1,0 +1,12 @@
+export * as authService from './auth.service';
+export * as addressService from './address-service';
+export * as itemFilterService from './item-filter.service';
+export * as itemService from './item.service';
+export * as cartService from './cart.service';
+export * as orderService from './order.service';
+export * as wishlistService from './wishlist.service';
+export * as categoryService from './category.service';
+export * as reviewService from './reviews.service';
+export * as newsletterService from "./news-letter.service";
+export * as contactService from "./contact.service";
+export * as commonService from './common-service';

@@ -1,0 +1,139 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/************************ my customized css start *************************/
+
+/* .header_img{
+width: 100%;
+height: 55px;
+} */
+
+/* header dropdown icon-peroson  start*/
+#dropdown-basic {
+  background-color: white;
+  border: none;
+}
+
+#dropdown-basic:focus {
+  box-shadow: none;
+  display: block;
+}
+
+/* header dropdown icon-peroson  end*/
+
+
+/* mobile offcanvas person-icon start */
+#mobile-offcanvas-person-icon:hover {
+  /* background-color: white; */
+  display: block;
+  border: none;
+}
+
+#mobile-offcanvas-person-icon:focus {
+  border: none;
+  box-shadow: none;
+  display: block;
+}
+
+/* mobile offcanvas person-icon end */
+
+
+/* header sticky menu start */
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 10px 0 15px 0;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.menu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: #fff;
+  background: #f4f4f4;
+  border-top: 1px solid #ececec;
+  /* box-shadow: 0 8px 6px -6px rgba(0,0,0,.4);
+padding: 5px 0 10px 0; */
+}
+
+.menu.fixed {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: #fff;
+  background: #f4f4f4;
+  border-top: 1px solid #ececec;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .4);
+  /* padding: 5px 0 10px 0; */
+}
+
+/* header sticky menu end */
+
+/* header_section  scrolling event start*/
+.header_section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 10px 0 15px 0;
+  background: #fff;
+}
+
+.header_section {
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .4);
+}
+
+/* header_section  scrolling event end*/
+
+
+.policy_iconLink {
+  cursor: pointer !important;
+}
+
+.category_scroll {
+  height: 290px;
+  overflow: auto;
+}
+
+.category_scroll li {
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.category_scroll li.active {
+  background-color: darkgray;
+}
+
+.breadcrumb-area1 {
+  background-color: darkgray;
+  padding: 15px 0px;
+}
+
+.slick-arrow {
+  color: red;
+}

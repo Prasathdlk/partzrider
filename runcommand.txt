@@ -1,0 +1,8 @@
+One time Install : npm i pm2
+
+1. pm2 start ecosystem.config.js --env production
+   pm2 start ecosystem.config.js --env stagging
+
+2. npm run build
+
+3. pm2 start customer-app
